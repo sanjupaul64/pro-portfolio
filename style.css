@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8%;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.s-color{
+    color: #f9004d;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.fi-btn{
+    background-color: #f9004d;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: transform .4s;
+}
+.fi-btn:hover{
+    transform: scale(1.2);
+}
+.contant{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translateY(50%);
+}
+h4{
+    color: #fff;
+}
+h1{
+    color: #fff;
+    font-size: 75px;
+    margin: 15px 0px;
+}
+h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    border: 2px solid #f9004d;
+    border-radius: 30px;
+    padding: 14px 180px 14px 15px;
+    outline: none;
+    display: inline-block;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    background-color:#f9004d;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    top: 6px;
+    right: 50px;
+    transition: transform .4s;
+    cursor: pointer;
+}
+.newslatter form input:last-child:hover{
+    transform: scale(1.05);
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+.main img{
+    width: 430px;
+    height: auto;
+    margin-top: 30px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    display: flex;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-size: 75px;
+}
+.about-text h1:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+.about-text h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text p{
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.about-text button{
+    background-color: #f9004d;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+.about-text button a{
+    text-decoration: none;
+    color: #fff;
+}
+.about-text button:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+}
+.service{
+    background: #101010;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h1{
+    font-size: 75px;
+    text-align: center;
+    transition: .4s;
+}
+.title h1:hover{
+    color: #f9004d;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+.card{
+    background-color: #191919;
+    margin: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+}
+.card i{
+    font-size: 40px;
+    color: #f9004d;
+    margin: 20px auto;
+}
+.pra p{
+    color: #ffafc8;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.card-btn a{
+    background-color: #f9004d;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card-btn a:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+}
+.txt-section{
+    background: #191919;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.txt-section h2{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.txt-section a{
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .4s;
+}
+.txt-section a:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.2);
+}
